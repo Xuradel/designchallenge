@@ -1,0 +1,223 @@
+[
+    {
+      "on_sale": false,
+      "in_stock": true,
+      "stock": 10,
+      "image_url": "https://oldschool.runescape.wiki/images/Dragon_scimitar_detail.png?3b303",
+      "item_name": "Dragon Scimitar",
+      "item_price": 285.50,
+      "item_discount": 250.00,
+      "game": "OSRS",
+      "item_description": "A powerful and popular one-handed melee weapon."
+    },
+    {
+      "on_sale": true,
+      "in_stock": true,
+      "stock": 8,
+      "image_url": "https://oldschool.runescape.wiki/images/Rune_platebody_detail.png?3af70",
+      "item_name": "Rune Platebody",
+      "item_price": 260.00,
+      "item_discount": 220.75,
+      "game": "OSRS",
+      "item_description": "A heavy and protective platebody made of runite."
+    },
+    {
+      "on_sale": false,
+      "in_stock": true,
+      "stock": 15,
+      "image_url": "https://oldschool.runescape.wiki/images/Magic_longbow_detail.png?68b64",
+      "item_name": "Magic Longbow",
+      "item_price": 450.25,
+      "item_discount": 395.50,
+      "game": "OSRS",
+      "item_description": "A longbow imbued with magical power for devastating ranged attacks."
+    },
+    {
+      "on_sale": true,
+      "in_stock": true,
+      "stock": 20,
+      "image_url": "https://runescape.wiki/images/Mystic_robes_set_detail.png?4b8ab",
+      "item_name": "Mystic Robes Set",
+      "item_price": 825.00,
+      "item_discount": 730.25,
+      "game": "OSRS",
+      "item_description": "A set of enchanted robes for magic users."
+    },
+    {
+      "on_sale": false,
+      "in_stock": true,
+      "stock": 5,
+      "image_url": "https://oldschool.runescape.wiki/images/Abyssal_whip_detail.png?9aee6",
+      "item_name": "Abyssal Whip",
+      "item_price": 725.75,
+      "item_discount": 650.50,
+      "game": "OSRS",
+      "item_description": "A powerful one-handed melee weapon with a unique attack."
+    },
+    {
+      "on_sale": true,
+      "in_stock": true,
+      "stock": 12,
+      "image_url": "https://oldschool.runescape.wiki/images/Amulet_of_fury_detail.png?060b7",
+      "item_name": "Amulet of Fury",
+      "item_price": 590.25,
+      "item_discount": 545.00,
+      "game": "OSRS",
+      "item_description": "A valuable amulet that enhances combat abilities."
+    },
+    {
+      "on_sale": true,
+      "in_stock": true,
+      "stock": 25,
+      "image_url": "https://oldschool.runescape.wiki/images/Dragonfire_shield_%28uncharged%29_detail.png?7f65a",
+      "item_name": "Dragonfire Shield",
+      "item_price": 995.50,
+      "item_discount": 890.75,
+      "game": "OSRS",
+      "item_description": "A formidable shield that provides protection against dragonfire."
+    },
+    {
+      "on_sale": true,
+      "in_stock": true,
+      "stock": 18,
+      "image_url": "https://oldschool.runescape.wiki/images/Saradomin_godsword_detail.png?a1482",
+      "item_name": "Saradomin Godsword",
+      "item_price": 375.25,
+      "item_discount": 330.00,
+      "game": "OSRS",
+      "item_description": "A divine sword with powerful special attacks."
+    },
+    {
+      "on_sale": true,
+      "in_stock": true,
+      "stock": 30,
+      "image_url": "https://oldschool.runescape.wiki/images/Barrows_gloves_detail.png?c5b58",
+      "item_name": "Barrows Gloves",
+      "item_price": 82.50,
+      "item_discount": 73.25,
+      "game": "OSRS",
+      "item_description": "Highly sought-after gloves with superior stats."
+    },
+    {
+      "on_sale": true,
+      "in_stock": true,
+      "stock": 7,
+      "image_url": "https://oldschool.runescape.wiki/images/Abyssal_tentacle_detail.png?9aee6",
+      "item_name": "Whip Vine",
+      "item_price": 685.00,
+      "item_discount": 612.75,
+      "game": "OSRS",
+      "item_description": "An upgraded version of the Abyssal Whip with additional features."
+    },
+    {
+        "on_sale": true,
+        "in_stock": true,
+        "stock": 15,
+        "image_url": "https://oldschool.runescape.wiki/images/Armadyl_godsword_detail.png?f2566",
+        "item_name": "Armadyl Godsword",
+        "item_price": 980.00,
+        "item_discount": 880.50,
+        "game": "OSRS",
+        "item_description": "A divine sword with a powerful special attack from the Armadyl boss."
+      },
+      {
+        "on_sale": false,
+        "in_stock": true,
+        "stock": 10,
+        "image_url": "https://oldschool.runescape.wiki/images/Zulrah%27s_scales_detail.png?972fa",
+        "item_name": "Zulrah's Scales",
+        "item_price": 40.75,
+        "item_discount": 38.00,
+        "game": "OSRS",
+        "item_description": "Scales from the deadly Zulrah snake, used in creating powerful items."
+      },
+      {
+        "on_sale": true,
+        "in_stock": true,
+        "stock": 8,
+        "image_url": "https://oldschool.runescape.wiki/images/Bandos_chestplate_detail.png?98028",
+        "item_name": "Bandos Chestplate",
+        "item_price": 550.00,
+        "item_discount": 495.50,
+        "game": "OSRS",
+        "item_description": "A chestplate forged by the Bandosian war god."
+      },
+      {
+        "on_sale": false,
+        "in_stock": true,
+        "stock": 25,
+        "image_url": "https://oldschool.runescape.wiki/images/Dragon_dagger%28p%2B%2B%29_detail.png?90ed7",
+        "item_name": "Dragon Dagger (p++)",
+        "item_price": 32.25,
+        "item_discount": 29.00,
+        "game": "OSRS",
+        "item_description": "A poisoned dragon dagger with a double special attack."
+      },
+      {
+        "on_sale": true,
+        "in_stock": true,
+        "stock": 20,
+        "image_url": "https://oldschool.runescape.wiki/images/Ancient_wyvern_shield_detail.png?e0645",
+        "item_name": "Ancient Wyvern Shield",
+        "item_price": 245.50,
+        "item_discount": 220.00,
+        "game": "OSRS",
+        "item_description": "A shield made from the scales of ancient wyverns."
+      },
+      {
+        "on_sale": true,
+        "in_stock": true,
+        "stock": 12,
+        "image_url": "https://oldschool.runescape.wiki/images/Toxic_blowpipe_detail.png?6a110",
+        "item_name": "Toxic Blowpipe",
+        "item_price": 675.00,
+        "item_discount": 600.50,
+        "game": "OSRS",
+        "item_description": "A powerful ranged weapon with a toxic bite."
+      },
+      {
+        "on_sale": false,
+        "in_stock": true,
+        "stock": 30,
+        "image_url": "https://oldschool.runescape.wiki/images/Ancient_staff_detail.png?76f2c",
+        "item_name": "Ancient Staff",
+        "item_price": 82.50,
+        "item_discount": 74.25,
+        "game": "OSRS",
+        "item_description": "A staff imbued with ancient magic."
+      },
+      {
+        "on_sale": true,
+        "in_stock": true,
+        "stock": 18,
+        "image_url": "https://oldschool.runescape.wiki/images/Dharok%27s_platebody_detail.png?d8a0b",
+        "item_name": "Dharok's Platebody",
+        "item_price": 320.00,
+        "item_discount": 288.00,
+        "game": "OSRS",
+        "item_description": "The platebody of the mighty Dharok the Wretched."
+      },
+      {
+        "on_sale": true,
+        "in_stock": true,
+        "stock": 22,
+        "image_url": "https://oldschool.runescape.wiki/images/Red_partyhat_detail.png?4832b",
+        "item_name": "Red partyhat",
+        "item_price": 160.75,
+        "item_discount": 144.50,
+        "game": "OSRS",
+        "item_description": "Red partyhats are tradable cosmetic items obtained by completing one of the Christmas holiday events that occur once per year. Previously, they were obtainable from 4 July 2013 to 14 July 2013 as part of a rare item drop."
+      },
+      {
+        "on_sale": true,
+        "in_stock": true,
+        "stock": 7,
+        "image_url": "https://oldschool.runescape.wiki/images/Dinh%27s_bulwark_detail.png?78ba5",
+        "item_name": "Dinh's Bulwark",
+        "item_price": 950.00,
+        "item_discount": 855.00,
+        "game": "OSRS",
+        "item_description": "A massive, heavy shield designed for ultimate defense."
+      }
+  ]
+  

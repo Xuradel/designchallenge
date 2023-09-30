@@ -1,0 +1,38 @@
+footer{background-color: #303041;}
+.footer-section{display: flex;padding-top: 2.56rem;justify-content: space-between;flex-wrap: wrap;}
+.footer-logo{display: flex;flex-direction: column;align-items: flex-start;gap:1rem;}
+.logo-email{color: white;font-size: 14px;}
+.footer-logo-img img{width: 198px;height: 45px;}
+.footer-links{display: flex;flex-direction: column; gap:1.2rem}
+.links{display: flex;flex-direction: column; gap:.8rem;}
+.footer-review{display: flex;align-items: flex-start;gap:.5rem}
+.footer-review img{width: 100px;cursor: pointer;}
+.footer-links h2{font-size: 20px; font-weight: 700;color: white;letter-spacing: 1.12px;}
+.footer-links h3{font-size: 14px; font-weight: 300;color: #CACACE;letter-spacing: 0.68px;}
+.footer-review h3{font-size: 14px; font-weight: 300;color: #CACACE;letter-spacing: 0.68px;cursor: pointer;}
+
+.links h3:hover{text-decoration: underline 1px solid #CACACE; cursor: pointer;}
+
+.copyright{background-color: #303041;}
+.copyright-text{display: flex;justify-content: center;padding: 4rem 0 2rem 0;
+    font-size: 14px; font-weight: 300;color: #CACACE;letter-spacing: 0.68px;
+}
+
+.mobile-logo{align-items: center;}
+.mobile-review{display: flex;justify-content: center;margin-top: 2rem;}
+.footer-section-mobile{display: flex; flex-direction: column;align-items: center;gap:1.5rem;}
+.footer-section-mobile .footer-logo{margin: 2rem 0;}
+.footer-links-mobile{width: 100%;}
+.header-link-mobile{display: flex;justify-content: space-between;align-items: center;cursor: pointer;margin: 0 .5rem;}
+.header-link-mobile h2{font-size: 14px; font-weight: 500;color: white;letter-spacing: 1.12px;}
+.mobile-links{display: flex;flex-direction: column;gap:1rem;margin-top: 2rem;margin-left: 0.5rem;}
+.mobile-links h3{font-size: 14px; font-weight: 300;color: #CACACE;letter-spacing: 0.68px;cursor: pointer;}
+.mobile-links h3:hover{text-decoration: underline 1px solid #CACACE; cursor: pointer;}
+.footer-splitter{margin-top: 1rem;}
+
+
+
+@media (max-width: 992px) {
+.footer-review{margin-top: 1rem;flex-direction: column-reverse;}
+}
+
