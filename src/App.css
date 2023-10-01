@@ -61,7 +61,7 @@
   gap:1.5rem;
   height: 100px;
 }
-.bank{width: 100px;height: max-content;}
+.bank{width: 100px;height:40px;}
 .mastercard{width: 60px;}
 .crypto-coins{display: flex;}
 .crypto{width: 30px;}
@@ -107,7 +107,7 @@
   .heading{font-size: 36px;}
   .banks-icons{gap:.5rem}
   .sponsors-icons{gap:.5rem}
-  .bank{width: 50px;}
+  .bank{width: 50px;height: 30px;}
   .crypto{width: 20px;}
   .social{width: 30px;}
 }
@@ -127,7 +127,7 @@
   .heading{font-size: 30px;}
   .banks-icons{gap:.5rem;margin-left: 0.5rem;}
   .sponsors-icons{gap:.5rem}
-  .bank{width: 35px;}
+  .bank{width: 35px;height: 20px;}
   .crypto{width: 15px;}
   .social{width: 30px;}
 }

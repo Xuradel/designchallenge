@@ -111,7 +111,7 @@ const Item = ({ item }) => {
                         Add
                     </div>
                     <div className='add-button-cart'>
-                        <FaShoppingCart/>
+                        <FaShoppingCart />
                     </div>
                 </div>
             </div>

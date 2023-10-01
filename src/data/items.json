@@ -1,6 +1,6 @@
 [
     {
-      "on_sale": false,
+      "on_sale": true,
       "in_stock": true,
       "stock": 10,
       "image_url": "https://oldschool.runescape.wiki/images/Dragon_scimitar_detail.png?3b303",
@@ -8,7 +8,7 @@
       "item_price": 285.50,
       "item_discount": 250.00,
       "game": "OSRS",
-      "item_description": "A powerful and popular one-handed melee weapon."
+      "item_description": "The dragon scimitar is the strongest scimitar available in Old School RuneScape. It can only be wielded by players who have 60 Attack and have completed the Monkey Madness I quest. It also shares similar bonuses with Viggora's chainmace, with the chainmace being a crush weapon rather than a slash weapon."
     },
     {
       "on_sale": true,
@@ -19,10 +19,10 @@
       "item_price": 260.00,
       "item_discount": 220.75,
       "game": "OSRS",
-      "item_description": "A heavy and protective platebody made of runite."
+      "item_description": "The rune platebody is an armour used in melee and the strongest of all free-to-play platebodies. It requires 40 Defence and completion of the quest Dragon Slayer I to equip."
     },
     {
-      "on_sale": false,
+      "on_sale": true,
       "in_stock": true,
       "stock": 15,
       "image_url": "https://oldschool.runescape.wiki/images/Magic_longbow_detail.png?68b64",
@@ -30,7 +30,7 @@
       "item_price": 450.25,
       "item_discount": 395.50,
       "game": "OSRS",
-      "item_description": "A longbow imbued with magical power for devastating ranged attacks."
+      "item_description": "The magic longbow is a longbow fletched from magic logs. It requires a Ranged level of 50 to wield and can fire arrows up to amethyst."
     },
     {
       "on_sale": true,
@@ -44,7 +44,7 @@
       "item_description": "A set of enchanted robes for magic users."
     },
     {
-      "on_sale": false,
+      "on_sale": true,
       "in_stock": true,
       "stock": 5,
       "image_url": "https://oldschool.runescape.wiki/images/Abyssal_whip_detail.png?9aee6",

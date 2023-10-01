@@ -223,7 +223,7 @@ text-decoration: line-through solid #FD4A4A;}
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
   cursor: pointer;
-  height: 30px !important;
+  height: 25px !important;
 
 }
 .item-bottom-description .tooltip {

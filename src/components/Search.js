@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FiSearch } from 'react-icons/fi';
 
-const Search = () => {
+const Search = ({ham}) => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const Search = () => {
           </div>
         </>
       )}
-      {isMobile && (
+      {!ham && isMobile && (
         <button className='search-button'>
           <FiSearch color='#CECFD5'size={24}/>
         </button>
