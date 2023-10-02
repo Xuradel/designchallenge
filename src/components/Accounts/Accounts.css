@@ -415,7 +415,7 @@ position: relative;top:2px; background-color: transparent;}
 
 @media (max-width: 1255px) {
  .accounts-cards-container {grid-template-columns: repeat(4, 1fr);}
- .item-card{width: 264px;}
+ .item-card{width: 254px;}
 }
 
 @media (max-width: 1200px) {
