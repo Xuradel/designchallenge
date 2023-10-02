@@ -297,7 +297,10 @@ font-size: 14px;cursor: pointer;flex-direction: column;}
 .ham-item-text{display: flex; justify-content: space-between;align-items: center;width: 100%;padding: 0 1rem;}
 .search-bar2:hover{background-color: #384454;}
 
-.hamburger-content{padding-bottom: 1rem;}
+.hamburger-content{padding-bottom: 6rem;}
+.body-no-scroll {
+  overflow: hidden;
+}
 
 .mobile-dropdown-menu {
   margin-top: 1rem;

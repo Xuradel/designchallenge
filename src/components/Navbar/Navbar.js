@@ -149,11 +149,16 @@ const Navbar = () => {
 
     const openHamburgerMenu = () => {
         setShowHamburgerMenu(true);
-    };
-
-    const closeHamburgerMenu = () => {
+        // Add the class to disable scrolling on the body
+        document.body.classList.add('body-no-scroll');
+      };
+      
+      const closeHamburgerMenu = () => {
         setShowHamburgerMenu(false);
-    };
+        // Remove the class to enable scrolling on the body
+        document.body.classList.remove('body-no-scroll');
+      };
+      
 
     const handleMobileItemClick = (itemIndex) => {
         setSelectedMobileItem(selectedMobileItem === itemIndex ? null : itemIndex);
@@ -199,7 +204,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="horizontal-splitter"></div>
-                    <div className="hamburger-content" style={{ maxHeight: 'calc(100vh - 60px)', overflowY: 'auto' }}>
+                    <div className="hamburger-content" style={{ maxHeight: '100vh', overflowY: 'auto' }}>
                         {['Currency', 'Items', 'Accounts', 'Services', 'Swap', 'Sell Currency', 'Sell Item', 'Sell Account', 'Skins', 'Unique Names', 'USD'].map((item, index) => (
                             <div key={index} className="ham-item">
                                 <div className="ham-item-text" onClick={() => handleMobileItemClick(index)}>
