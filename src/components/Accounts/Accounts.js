@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Container from '../Container';
 import Heading from '../Heading';
 import './Accounts.css';
 import Filter from '../Filter';
 import { GiSwapBag, GiBroadsword } from 'react-icons/gi';
-import { RiSortAsc } from 'react-icons/ri'
+import { RiSortAsc, RiSortDesc } from 'react-icons/ri'
 import { ImLeaf } from 'react-icons/im'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import Search from '../Search';
@@ -19,10 +19,36 @@ const Accounts = () => {
     const games = ['RS3', 'OSRS', 'League of Legends', 'Valorant']
     const sort = ['Featured', 'Price: (Low to High)', 'Price: (High to Low)']
     const [selectedItem, setSelectedItem] = useState(1);
+    const [currentSortOption, setCurrentSortOption] = useState('Featured');
+    const [sortedItems, setSortedItems] = useState(items);
+
+    useEffect(() => {
+        sortItems();
+    }, [currentSortOption]);
 
     const handleItemClick = (itemNumber) => {
         setSelectedItem(itemNumber);
     }
+
+    const handleSortChange = (sortOption) => {
+        setCurrentSortOption(sortOption);
+    };
+
+    const sortItems = () => {
+        let sortedItemsCopy = [...items];
+        switch (currentSortOption) {
+            case 'Price: (Low to High)':
+                sortedItemsCopy.sort((a, b) => a.item_price - b.item_price);
+                break;
+            case 'Price: (High to Low)':
+                sortedItemsCopy.sort((a, b) => b.item_price - a.item_price);
+                break;
+            default:
+                // No sorting or default sorting logic here
+                break;
+        }
+        setSortedItems(sortedItemsCopy);
+    };
     return (
         <div className='accounts-section'>
             <div className='accounts-top'>
@@ -57,12 +83,19 @@ const Accounts = () => {
                                 Showing 20 from 125
                             </div>
                             <div className='accounts-sorter'>
-                                <Filter icon={<RiSortAsc size={32} fill='#39E29D' />} title={'Sort By'} fill='#39E29D'
-                                    options={sort} medium firstValue={'Featured'} />
+                                <Filter
+                                    icon={currentSortOption === 'Price: (Low to High)' ? <RiSortAsc size={32} fill='#39E29D' /> : <RiSortDesc size={32} fill='#39E29D' />}
+                                    title={'Sort By'}
+                                    fill='#39E29D'
+                                    options={sort}
+                                    medium
+                                    firstValue={'Featured'}
+                                    onSelect={handleSortChange}
+                                />
                             </div>
                         </div>
                         <div className='accounts-cards-container'>
-                            {items.map((item, index) => (
+                            {sortedItems.map((item, index) => (
                                 <Item key={index} item={item} />
                             ))}
                         </div>

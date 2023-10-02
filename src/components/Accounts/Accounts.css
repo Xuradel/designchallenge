@@ -210,6 +210,7 @@ width: 210px;height: 313px;padding: 15px 10px;gap:.8rem;border-radius: 5px;}
 .standard-price{color: #B8B9BF;font-size: 14px;font-weight: 300;
 text-decoration: line-through solid #FD4A4A;}
 
+
 .item-bottom-description {
   position: relative;
   font-size: 10px;
@@ -247,6 +248,34 @@ text-decoration: line-through solid #FD4A4A;}
   left: 0;
 }
 .item-buttons{display: flex;justify-content: space-between;}
+
+
+.item-inventory-mobile{display: flex;align-items: center;justify-content: center;}
+
+.input-mobile {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+  width: auto;
+  text-align: center;
+  font-size: inherit;
+  cursor: pointer;
+  width: 30px;
+  color: white;
+}
+.item-inventory-mobile input[type="number"]::-webkit-inner-spin-button,
+.item-inventory-mobile input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.increment-mobile{width: 20px;height: 20px;border-radius: 4px;
+  background-color: #5662D5;color: white;border: none;display: flex;align-items: center;justify-content: center;}
+.decrement-mobile{width: 20px;height: 20px;border-radius: 4px;
+  background-color: #5662D5;color: white;border: none;display: flex;align-items: center;justify-content: center;}
+
+
+
 .details-button{width: 90px; height: 40px;background-color: #3E4254;display: flex;align-items: center;
 justify-content: center;font-size: 14px;color: #D3D4D7;cursor: pointer;font-weight: 500;}
 .details-button:hover{background-color: #605c6c;}

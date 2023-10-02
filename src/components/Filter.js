@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { VscTriangleDown } from 'react-icons/vsc';
 
-const Filter = ({ title, icon, options, game_filter, large, medium, firstValue }) => {
+const Filter = ({ title, icon, options, game_filter, large, medium, firstValue, onSelect }) => {
     const [isDropdownOpen, setDropdownOpen] = useState(false);
     const [selectedValue, setSelectedValue] = useState(game_filter ? 'Select a game' : `${firstValue}`);
     const filterRef = useRef(null);
@@ -34,6 +34,7 @@ const Filter = ({ title, icon, options, game_filter, large, medium, firstValue }
     const handleOptionClick = (value) => {
         setSelectedValue(value);
         setDropdownOpen(false); // Close the dropdown when an option is selected
+        onSelect(value); // Notify the parent component of the selected option
     };
 
     const optionsList = options.map((option, index) => (
@@ -88,6 +89,7 @@ const Filter = ({ title, icon, options, game_filter, large, medium, firstValue }
                                 placeholder='Filter by...'
                                 value={selectedValue}
                                 onClick={toggleDropdown}
+                                onSelect={onSelect}
                             />
                         </div>
                     </div>

@@ -1,13 +1,29 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { TbPointFilled } from 'react-icons/tb'
 import { GoTriangleUp, GoTriangleDown } from 'react-icons/go'
 import { SiRiotgames } from 'react-icons/si'
 import { FaShoppingCart } from 'react-icons/fa'
+import {BsPlus} from 'react-icons/bs'
+import {BiMinus} from 'react-icons/bi'
+
 const Item = ({ item }) => {
     const { on_sale, in_stock, image_url, item_name, item_price, item_discount, item_description } = item;
     const [value, setValue] = useState(1);
     const [showTooltip, setShowTooltip] = useState(false);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
+
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     const handleIncrement = () => {
         setValue(value + 1);
@@ -51,27 +67,46 @@ const Item = ({ item }) => {
                         }
                     </div>
                 </div>
-                <div className='item-inventory'>
-                    <div className="numeric-input">
-                        <div className="inventory-input-container">
-                            <input
-                                type="number"
-                                id="numericInput"
-                                value={value}
-                                onChange={(e) => setValue(parseInt(e.target.value))}
-                                min="0"
-                            />
-                            <div className='inventory-input-buttons'>
-                                <button onClick={handleIncrement} className="increment">
-                                    <GoTriangleUp />
-                                </button>
-                                <button onClick={handleDecrement} className="decrement">
-                                    <GoTriangleDown />
-                                </button>
+                {windowWidth >= 992 ? (
+                    <div className='item-inventory'>
+                        <div className="numeric-input">
+                            <div className="inventory-input-container">
+                                <input
+                                    type="number"
+                                    id="numericInput"
+                                    value={value}
+                                    onChange={(e) => setValue(parseInt(e.target.value))}
+                                    min="0"
+                                />
+                                <div className='inventory-input-buttons'>
+                                    <button onClick={handleIncrement} className="increment">
+                                        <GoTriangleUp />
+                                    </button>
+                                    <button onClick={handleDecrement} className="decrement">
+                                        <GoTriangleDown />
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                ) : (
+                    <div className='item-inventory-mobile'>
+                        <button onClick={handleDecrement} className="decrement-mobile">
+                            <BiMinus />
+                        </button>
+                        <input
+                            type="number"
+                            id="numericInput"
+                            value={value}
+                            onChange={(e) => setValue(parseInt(e.target.value))}
+                            min="0"
+                            className="input-mobile"
+                        />
+                        <button onClick={handleIncrement} className="increment-mobile">
+                            <BsPlus size={18}/>
+                        </button>
+                    </div>
+                )}
             </div>
             <div className='item-center-image'>
                 <img src={image_url} alt='item'></img>
@@ -89,7 +124,7 @@ const Item = ({ item }) => {
                     ${item_discount}
                 </div>
                 <div className='standard-price'>
-                    {item_price}
+                    {on_sale ? `$${item_price}` : null}
                 </div>
             </div>
             <div className="item-bottom-description">

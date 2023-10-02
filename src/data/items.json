@@ -1,6 +1,6 @@
 [
     {
-      "on_sale": true,
+      "on_sale": false,
       "in_stock": true,
       "stock": 10,
       "image_url": "https://oldschool.runescape.wiki/images/Dragon_scimitar_detail.png?3b303",
@@ -11,7 +11,7 @@
       "item_description": "The dragon scimitar is the strongest scimitar available in Old School RuneScape. It can only be wielded by players who have 60 Attack and have completed the Monkey Madness I quest. It also shares similar bonuses with Viggora's chainmace, with the chainmace being a crush weapon rather than a slash weapon."
     },
     {
-      "on_sale": true,
+      "on_sale": false,
       "in_stock": true,
       "stock": 8,
       "image_url": "https://oldschool.runescape.wiki/images/Rune_platebody_detail.png?3af70",
@@ -44,7 +44,7 @@
       "item_description": "A set of enchanted robes for magic users."
     },
     {
-      "on_sale": true,
+      "on_sale": false,
       "in_stock": true,
       "stock": 5,
       "image_url": "https://oldschool.runescape.wiki/images/Abyssal_whip_detail.png?9aee6",
@@ -77,7 +77,7 @@
       "item_description": "A formidable shield that provides protection against dragonfire."
     },
     {
-      "on_sale": true,
+      "on_sale": false,
       "in_stock": true,
       "stock": 18,
       "image_url": "https://oldschool.runescape.wiki/images/Saradomin_godsword_detail.png?a1482",
@@ -110,7 +110,7 @@
       "item_description": "An upgraded version of the Abyssal Whip with additional features."
     },
     {
-        "on_sale": true,
+        "on_sale": false,
         "in_stock": true,
         "stock": 15,
         "image_url": "https://oldschool.runescape.wiki/images/Armadyl_godsword_detail.png?f2566",
@@ -154,7 +154,7 @@
         "item_description": "A poisoned dragon dagger with a double special attack."
       },
       {
-        "on_sale": true,
+        "on_sale": false,
         "in_stock": true,
         "stock": 20,
         "image_url": "https://oldschool.runescape.wiki/images/Ancient_wyvern_shield_detail.png?e0645",
